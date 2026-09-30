@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
+test("shows the correct WhatsApp and email contact details", () => {
+  window.history.pushState({}, "", "/contact");
+
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  expect(screen.getAllByText(/\+254 116 349 931/i).length).toBeGreaterThan(0);
+  expect(screen.getAllByText(/wekesaedgar3@gmail.com/i).length).toBeGreaterThan(
+    0,
+  );
 });

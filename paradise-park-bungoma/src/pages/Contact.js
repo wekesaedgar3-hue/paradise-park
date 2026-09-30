@@ -52,20 +52,24 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-800">Phone</h3>
-                    <p className="text-gray-600">+254 712 345 678</p>
-                    <p className="text-gray-600">+254 723 456 789</p>
+                    <a
+                      href="tel:+254116349931"
+                      className="text-gray-600 hover:text-green-600 transition"
+                    >
+                      +254 116 349 931
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Mail className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-800">Email</h3>
-                    <p className="text-gray-600">
-                      info@paradiseparkbungoma.co.ke
-                    </p>
-                    <p className="text-gray-600">
-                      events@paradiseparkbungoma.co.ke
-                    </p>
+                    <a
+                      href="mailto:wekesaedgar3@gmail.com"
+                      className="text-gray-600 hover:text-green-600 transition"
+                    >
+                      wekesaedgar3@gmail.com
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -183,9 +187,14 @@ const Contact = () => {
               </form>
               <p className="text-xs text-gray-500 text-center mt-4">
                 Or WhatsApp us directly at{" "}
-                <span className="font-medium text-green-600">
-                  +254 712 345 678
-                </span>
+                <a
+                  href="https://wa.me/254116349931"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-green-600 hover:text-green-700 transition"
+                >
+                  +254 116 349 931
+                </a>
               </p>
             </div>
           </div>

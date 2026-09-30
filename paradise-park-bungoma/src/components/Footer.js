@@ -64,15 +64,21 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center space-x-2">
                 <MdPhone className="h-4 w-4" />
-                <span>+254 712 345 678</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <MdPhone className="h-4 w-4" />
-                <span>+254 723 456 789</span>
+                <a
+                  href="tel:+254116349931"
+                  className="hover:text-green-400 transition"
+                >
+                  +254 116 349 931
+                </a>
               </li>
               <li className="flex items-center space-x-2">
                 <MdEmail className="h-4 w-4" />
-                <span>info@paradiseparkbungoma.co.ke</span>
+                <a
+                  href="mailto:wekesaedgar3@gmail.com"
+                  className="hover:text-green-400 transition"
+                >
+                  wekesaedgar3@gmail.com
+                </a>
               </li>
               <li className="flex items-center space-x-2">
                 <MdLocationOn className="h-4 w-4" />

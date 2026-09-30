@@ -37,8 +37,7 @@ const Booking = () => {
   const sendWhatsAppMessage = () => {
     const message = `Hello Paradise Park Bungoma!%0A%0A*New Booking Request*%0A%0AName: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0AEvent Type: ${formData.eventType}%0AEvent Date: ${formData.eventDate}%0ANumber of Guests: ${formData.guestCount}%0ASpecial Requests: ${formData.specialRequests}%0A%0APlease contact me to confirm availability and pricing. Thank you!`;
 
-    // Replace with your client's actual WhatsApp number
-    const whatsappNumber = "254712345678";
+    const whatsappNumber = "254116349931";
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
   };
 
@@ -57,7 +56,7 @@ Special Requests: ${formData.specialRequests}
 
 Please follow up with the client.
     `);
-    window.location.href = `mailto:info@paradiseparkbungoma.co.ke?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:wekesaedgar3@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const handleSubmit = (e) => {
@@ -267,8 +266,11 @@ Please follow up with the client.
                 <strong>WhatsApp</strong> or <strong>Email</strong>.
               </p>
               <p className="mt-2">
-                You can also call us directly at{" "}
-                <strong className="text-green-600">+254 712 345 678</strong>
+                You can also reach us directly at{" "}
+                <strong className="text-green-600">+254 116 349 931</strong> or{" "}
+                <strong className="text-green-600">
+                  wekesaedgar3@gmail.com
+                </strong>
               </p>
             </div>
           </div>
