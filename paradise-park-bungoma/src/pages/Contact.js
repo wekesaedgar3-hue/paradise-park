@@ -98,12 +98,13 @@ const Contact = () => {
               <div className="mt-8 rounded-lg overflow-hidden shadow-lg">
                 <iframe
                   title="Paradise Park Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.785245663256!2d34.548000!3d0.680000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17809b8b8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sBungoma!5e0!3m2!1sen!2ske!4v1690000000000!5m2!1sen!2ske"
+                  src="https://www.google.com/maps?q=Paradise%20Park%20Bungoma&z=14&output=embed"
                   width="100%"
                   height="250"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>
@@ -197,6 +198,42 @@ const Contact = () => {
                 </a>
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="flex items-center justify-between mb-6 gap-4 flex-wrap">
+            <div>
+              <p className="text-green-600 font-semibold uppercase tracking-wide text-sm">
+                Directions
+              </p>
+              <h2 className="text-3xl font-bold text-gray-800">
+                Get to Paradise Park
+              </h2>
+            </div>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Paradise+Park+Bungoma"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-green-600 text-white px-5 py-3 rounded-full font-semibold hover:bg-green-700 transition"
+            >
+              Open in Google Maps
+            </a>
+          </div>
+
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
+            <iframe
+              title="Paradise Park Bungoma map"
+              src="https://www.google.com/maps?q=Paradise%20Park%20Bungoma&z=14&output=embed"
+              width="100%"
+              height="420"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>

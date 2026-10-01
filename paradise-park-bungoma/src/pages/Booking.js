@@ -277,6 +277,42 @@ Please follow up with the client.
         </div>
       </section>
 
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="flex items-center justify-between mb-6 gap-4 flex-wrap">
+            <div>
+              <p className="text-green-600 font-semibold uppercase tracking-wide text-sm">
+                Location
+              </p>
+              <h2 className="text-3xl font-bold text-gray-800">
+                Find Paradise Park
+              </h2>
+            </div>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Paradise+Park+Bungoma"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-green-600 text-white px-5 py-3 rounded-full font-semibold hover:bg-green-700 transition"
+            >
+              Open in Google Maps
+            </a>
+          </div>
+
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
+            <iframe
+              title="Paradise Park Bungoma location"
+              src="https://www.google.com/maps?q=Paradise%20Park%20Bungoma&z=14&output=embed"
+              width="100%"
+              height="420"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="bg-green-700 py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
